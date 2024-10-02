@@ -8,14 +8,14 @@ Basic setup to run self-hosted Ollama and use LLMs locally (Works with Coolify)
 
 
 ## Steps
-1. Run setup.bash (installs Nvidia drivers, Nvidia CUDA toolkit, and Nvidia-container-toolkit)
-2. If using Coolify, paste the Docker Compose content in the Docker Compose section of your project. Otherwise, just run `docker compose up -d` inside the project's folder.
+1. Run setup.bash (installs Nvidia drivers, Nvidia CUDA toolkit, and Nvidia Container Toolkit)
+2. If using Coolify, paste the docker-compose.yaml content in the Docker Compose section of your project. Otherwise, just run `docker compose up -d` inside the project's folder on your machine.
 3. Go to localhost:3000 or the respective Coolify link for your service.
 
 
 ## Installing models
 * Model Library: https://ollama.com/library
-* `docker exec <ollama_container_id> -it ollama pull <modelname>`
+* Run `docker exec <ollama_container_id> -it ollama pull <modelname>`
 
 
 ## For more information:
